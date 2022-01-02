@@ -159,7 +159,7 @@ ul {
 }
 
 .new-products {
-  padding: 120px 0 102px 0;
+  padding-top: 120px;
 }
 
 .wrapper {
@@ -260,7 +260,46 @@ ul {
   background-color: #FAECE9;
 }
 
+.reviews {
+  padding: 102px 0 100px 0;
+}
+
 .slider__wrap {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.user-pic {
+  max-width: 80px;
+  margin-bottom: 36px;
+}
+
+.user-name {
+  font-family: "OpenSans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.user-psition {
+  font-family: "OpenSans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.user-review {
+  max-width: 653px;
+  font-family: "OpenSans", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  color: #444348;
+  margin-bottom: 23px;
+  text-align: center;
+}
+
+.leftowers {
+  padding: 73px 0 111px 0;
 }
