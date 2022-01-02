@@ -1,0 +1,145 @@
+@media (max-width: 1920px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        max-width: 300px;
+    }
+}
+
+/* 1920 и 1440 не делал, выглядят одинаково хорошо в оригинале */
+
+@media screen and (max-width: 768px) {
+    
+    .footer__flex {
+        flex-wrap: wrap;
+        justify-content: center;
+        min-width: 100%;
+    }
+
+    .items__wrap {
+        min-width: 100%; 
+        justify-content: center;
+    }
+
+    .item__flex {
+        margin-bottom: 30px;      
+    }
+
+    .footer__item {
+        margin-left: 20px;
+    }
+
+    .footer__aside {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input {
+       width: 100%; 
+    }  
+}
+
+@media screen and (max-width: 425px) {
+
+    .item__flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        min-width: 100%;
+    }
+  
+    .footer__item {
+        margin-left: 35px;
+    } 
+    
+    .footer__item-link {
+        margin: 0 0 20px;
+    }
+
+    .footer__bottom {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .footer__bottom-left {
+        margin-bottom: 10px;
+    }    
+}
+
+@media screen and (max-width: 375px) {
+
+    .footer__flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item__flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;         
+    }
+
+    .items__wrap {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+    }
+
+    .footer__item {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    
+    form {
+        width: 320px;
+    } 
+}
+
+@media screen and (max-width: 320px) {
+
+    .footer__flex {
+        text-align: center;
+    }
+
+    .footer__bottom-left {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    form {
+        width: 280px;
+    } 
+}
