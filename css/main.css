@@ -302,6 +302,9 @@ ul {
 
 .leftowers {
   padding: 73px 0 111px 0;
+  background-image: url(../img/leftowers/bg.jpg);
+  background-position: left top;
+  background-repeat: no-repeat;
 }
 
 .leftowers__top {
@@ -334,6 +337,7 @@ ul {
 
 .leftowers__bottom-productcard {
   padding-top: 30px;
+  padding-left: 26px;
   max-width: 209px;
   background-color: #FFFFFF;
 }
