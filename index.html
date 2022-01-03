@@ -102,17 +102,45 @@
 
     <section class="reviews">
         <div class="container">
-            <div class="slider">
-                <div class="slider__wrap">
-                    <img class="user-pic" src="img/reviews/user_elena.png" alt="user_elena" >
-                    <span class="user-name">Елена Новикова</span>
-                    <span class="user-psition">студентка</span>
-                    <p class="user-review">
-                        «Хочу поделиться своими впечатлениями по использованию дивана «Бродвей», 
-                        заказывала в конце 2016 года. Держится великолепно. Спасибо, большое сотрудникам этого чудесного магазина.»
-                    </p>
-                    <!-- кнопки и слайдер -->
+            <div class="slider"> <!-- контейнер слайдера -->
+                <div class="slider__wrap"> <!-- лента ограничитель слайдера -->
+                    <div class="slider__content"> <!-- карточка 1 слайдера -->
+                        <img class="user-pic" src="img/reviews/user_elena.png" alt="user_elena" >
+                        <span class="user-name">Елена Новикова</span>
+                        <span class="user-psition">студентка</span>
+                        <p class="user-review">
+                            «Хочу поделиться своими впечатлениями по использованию дивана «Бродвей», 
+                            заказывала в конце 2016 года. Держится великолепно. Спасибо, большое сотрудникам этого чудесного магазина.»
+                        </p>
+                    </div>
+
+                    <div class="slider__content"> <!-- карточка 2 слайдера -->
+                        <img class="user-pic" src="img/reviews/user_elena.png" alt="user_elena" >
+                        <span class="user-name">Елена Новикова</span>
+                        <span class="user-psition">студентка</span>
+                        <p class="user-review">
+                            «Хочу поделиться своими впечатлениями по использованию дивана «Бродвей», 
+                            заказывала в конце 2016 года. Держится великолепно. Спасибо, большое сотрудникам этого чудесного магазина.»
+                        </p>
+                    </div>
+
+                    <div class="slider__content"> <!-- карточка 3 слайдера -->
+                        <img class="user-pic" src="img/reviews/user_elena.png" alt="user_elena" >
+                        <span class="user-name">Елена Новикова</span>
+                        <span class="user-psition">студентка</span>
+                        <p class="user-review">
+                            «Хочу поделиться своими впечатлениями по использованию дивана «Бродвей», 
+                            заказывала в конце 2016 года. Держится великолепно. Спасибо, большое сотрудникам этого чудесного магазина.»
+                        </p>
+                    </div>
+
+
+
+                    
                 </div>
+                <!-- кнопки и слайдер -->
+                <button class="slider__next">next</button>
+                <button class="slider__prev">prev</button>
             </div>
         </div>
     </section> <!-- "reviews -->
@@ -131,50 +159,93 @@
             <div class="leftowers__bottom">
                 <div class="leftowers__bottom-productcard">
                     <p class="productcard-descr">Стул «Карамель»</p>
+                    <div class="productcard-wrap">
                     <span class="productcard-newprice">$195</span>
                     <span class="productcard-oldprice">$245</span>
+                    </div>
                     <img class="productcard-img" src="img/leftowers/leftowers_bottom/1.jpg" alt="" >
                 </div>
 
                 <div class="leftowers__bottom-productcard">
                     <p class="productcard-descr">Стул «Облако»</p>
+                    <div class="productcard-wrap">
                     <span class="productcard-newprice">$200</span>
                     <span class="productcard-oldprice">$245</span>
+                    </div>
                     <img class="productcard-img" src="img/leftowers/leftowers_bottom/2.jpg" alt="" >
                 </div>
 
                 <div class="leftowers__bottom-productcard">
-                    <p class="productcard-descr">Стул «Карамель»</p>
-                    <span class="productcard-newprice">$195</span>
-                    <span class="productcard-oldprice">$245</span>
-                    
-                    <img class="productcard-img" src="img/leftowers/leftowers_bottom/3.jpg" alt="" >
-                    
+                    <p class="productcard-descr">Стул «Сова»</p>
+                    <div class="productcard-wrap">
+                    <span class="productcard-newprice">$240</span>
+                    <span class="productcard-oldprice">$260</span>
+                    </div>
+                    <img class="productcard-img" src="img/leftowers/leftowers_bottom/3.jpg" alt="" >   
                 </div>
 
                 <div class="leftowers__bottom-productcard">
-                    <p class="productcard-descr">Стул «Карамель»</p>
-                    <span class="productcard-newprice">$195</span>
-                    <span class="productcard-oldprice">$245</span>
-                    <img class="productcard-img" src="img/leftowers/leftowers_bottom/4.jpg" alt="" >
-                   
+                    
+                    <p class="productcard-descr">Стул «Мая»</p>
+                    <div class="productcard-wrap">
+                    <span class="productcard-newprice">$280</span>
+                    <span class="productcard-oldprice">$330</span>
+                    </div>
+                    <img class="productcard-img" src="img/leftowers/leftowers_bottom/4.jpg" alt="">
+                    <button class="bottom__button" id="button">купить</button>    
                 </div>
 
                 <div class="leftowers__bottom-productcard">
-                    <p class="productcard-descr">Стул «Карамель»</p>
-                    <span class="productcard-newprice">$195</span>
-                    <span class="productcard-oldprice">$245</span>
-                    
-                    <img class="productcard-img" src="img/leftowers/leftowers_bottom/5.jpg" alt="" >
-                    
+                    <span class="productcard-line"></span>
+                    <p class="productcard-descr">Стул «Месси»</p>
+                    <div class="productcard-wrap">
+                    <span class="productcard-newprice">$280</span>
+                    <span class="productcard-oldprice">$305</span>
+                    </div>
+                    <img class="productcard-img" src="img/leftowers/leftowers_bottom/5.jpg" alt="">
+                    <button class="bottom__button" id="button">купить</button>
                 </div>
-
-
-
             </div>
         </div>
     </section> <!-- leftowers -->
 
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__menu-nav">
+                <div class="footer__logo">
+                    <a href="" class="footer__logo-link">
+                        <img class="footer__logo-img" src="img/footer/footer-logo.svg" alt="logo" >
+                    </a>   
+                </div>
 
+                <nav class="footer__nav">
+                    <ul class="footer__nav-list">
+                        <li class="footer__nav-item">
+                            <a class="footer__nav-link" href="#">доставка</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a class="footer__nav-link" href="#">оплата</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a class="footer__nav-link" href="#">контакты</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a class="footer__nav-link" href="#">гарантии</a>
+                        </li>
+                    </ul>
+                </nav>
+                
+            </div>
+            <div class="footer__main">
+                <a class="footer__main-tel" href="tel:+74952052814">+7(495) 205-28-14</a>
+                <a class="footer__main-email" href="mailto:callium@gmail.com">callium@gmail.com</a>
+            </div>
+            <div class="footer__copyright">
+                <span class="footer__copyright-descr">© 2018 «Callium» — Сайт по продаже дизайнерской мебели. Все права защищены.</span>
+            </div>
+        </div>
+    </footer> <!-- footer -->
+
+    <script src="js/script.js"></script>
 </body>
 </html>

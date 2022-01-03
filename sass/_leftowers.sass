@@ -24,6 +24,11 @@
     color: rgba(0, 0, 0, 0.4)
     margin-right: 48px
 
+.nav-element:hover
+    color: #000000
+    text-decoration: underline
+
+
 .leftowers__bottom
     display: flex
     flex-direction: row
@@ -31,10 +36,33 @@
     // gap: 31px
 
     &-productcard
+        position: relative
+        display: flex
+        flex-direction: column
+        // align-items: flex-end
         padding-top: 30px
         padding-left: 26px
-        max-width: 209px
-        background-color: #FFFFFF
+        width: 209px
+        height: 355px
+        background-color: #ffff
+        box-shadow:rgba(0, 0, 0, 0.05)
+
+.productcard-img:hover + .bottom__button, .bottom__button:hover + .productcard-line
+    display: block
+
+
+
+.bottom__button:hover
+    opacity: 0.9
+    
+
+
+.productcard-wrap
+    display: flex
+    flex-direction: row
+    align-items: baseline
+    
+
 
 .productcard-descr
     font-family: "OpenSans",sans-serif
@@ -57,13 +85,39 @@
     color: #979798
     text-decoration: line-through
 
+.productcard-img
+    max-width: 100%
+    height: 355px
+
 .img-wrap
     // display: flex
     // flex-direction: row
     // justify-content: flex-end
 
 
-        
+.bottom__button
+    display: none
+    position: absolute
+    left: 0
+    bottom: -45px
+    width: 100%
+    padding: 18px 66px
+    background-color: #303032
+    font-family: "OpenSans",sans-serif
+    font-weight: 400
+    font-size: 16px
+    color: #FFFFFF
+    text-transform: uppercase
+    border: none
+    
 
+
+// .bottom__button:before
+    
+//     top: 0
+//     left: 0
+//     height: 5px
+//     width: 100%
+//     background-color: black
     
     
