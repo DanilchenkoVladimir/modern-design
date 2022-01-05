@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <!-- <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/> -->
 </head>
 <body>
     <header class="header">
@@ -42,23 +44,42 @@
             </div>
 
             <div class="header__main">
-                <div class="header__main-slider">
-                    <div class="main-left">
-                        <h1 class="header__main-header">дизайнерская мебель</h1>
-                        <p class="header__main-descr">Кресло “Антиква”</p>
-                        <div class="header__main-price">
-                            <span class="main__price-before">$380</span>
-                            <span class="main__price-after">$240</span>
+                <div class="wrap__slider">
+                    <div class="header__main-slider">
+                        <div class="main-left">
+                            <h1 class="header__main-header">дизайнерская мебель</h1>
+                            <p class="header__main-descr">Кресло “Антиква”</p>
+                                <div class="header__main-price">
+                                    <span class="main__price-before">$380</span>
+                                    <span class="main__price-after">$240</span>
+                                </div>
+                                <button class="header__main-button">купить</button>
                         </div>
-                        <button class="header__main-button">купить</button>
+
+                        <div class="main-right">
+                            <img class="header__main-img" src="img/header-main/img1.jpg" alt=""> 
+                        </div>                    
                     </div>
 
-                    <div class="main-right">
-                        <img class="header__main-img" src="img/header-main/img1.jpg" alt="" >
-                        <!-- сюда кнопки еще -->
-                    </div> 
-                </div>  
-            </div>
+                    <div class="header__main-slider">
+                        <div class="main-left">
+                            <h1 class="header__main-header">дизайнерская мебель</h1>
+                            <p class="header__main-descr">Кресло “Антиква”</p>
+                                <div class="header__main-price">
+                                    <span class="main__price-before">$380</span>
+                                    <span class="main__price-after">$240</span>
+                                </div>
+                                <button class="header__main-button">купить</button>
+                        </div>
+
+                        <div class="main-right">
+                            <img class="header__main-img" src="img/header-main/img1.jpg" alt=""> 
+                        </div>                    
+                    </div>
+                    
+                </div>
+                </div>
+            </div>  
         </div>
     </header> <!-- header -->
 
@@ -102,60 +123,47 @@
 
     <section class="reviews">
         <div class="container">
-            <div class="reviews__slider">
-            <div class="slider"> <!-- контейнер слайдера -->
-                <div class="slider__wrap"> <!-- лента ограничитель слайдера -->
-                    <div class="slider__content"> <!-- карточка 1 слайдера -->
-                        <img class="user-pic" src="img/reviews/user_elena.png" alt="user_elena" >
-                        <span class="user-name">Елена Новикова1</span>
-                        <span class="user-psition">студентка</span>
+            <div class="reviews__slider">       
+                <div class="slider__content"> <!-- карточка 1 слайдера -->
+                    <img class="user-pic" src="img/reviews/user_elena.png" alt="user_elena" >
+                    <span class="user-name">Елена Новикова1</span>
+                    <span class="user-psition">студентка</span>
+                        <p class="user-review">
+                            «Хочу поделиться своими впечатлениями по использованию дивана «Бродвей», заказывала в конце 2016 года. Держится великолепно. Спасибо, большое сотрудникам этого чудесного магазина.»
+                        </p>
+                </div>
+
+                <div class="slider__content"> <!-- карточка 2 слайдера -->
+                    <img class="user-pic" src="img/reviews/user_elena.png" alt="user_elena" >
+                    <span class="user-name">Елена Новикова2</span>
+                    <span class="user-psition">студентка</span>
                         <p class="user-review">
                             «Хочу поделиться своими впечатлениями по использованию дивана «Бродвей», 
                             заказывала в конце 2016 года. Держится великолепно. Спасибо, большое сотрудникам этого чудесного магазина.»
                         </p>
                     </div>
 
-                    <div class="slider__content"> <!-- карточка 2 слайдера -->
-                        <img class="user-pic" src="img/reviews/user_elena.png" alt="user_elena" >
-                        <span class="user-name">Елена Новикова2</span>
-                        <span class="user-psition">студентка</span>
-                        <p class="user-review">
-                            «Хочу поделиться своими впечатлениями по использованию дивана «Бродвей», 
-                            заказывала в конце 2016 года. Держится великолепно. Спасибо, большое сотрудникам этого чудесного магазина.»
-                        </p>
-                    </div>
-
-                    <div class="slider__content"> <!-- карточка 3 слайдера -->
-                        <img class="user-pic" src="img/reviews/user_elena.png" alt="user_elena" >
-                        <span class="user-name">Елена Новикова3</span>
-                        <span class="user-psition">студентка</span>
+                <div class="slider__content"> <!-- карточка 3 слайдера -->
+                    <img class="user-pic" src="img/reviews/user_elena.png" alt="user_elena" >
+                    <span class="user-name">Елена Новикова3</span>
+                    <span class="user-psition">студентка</span>
                         <p class="user-review">
                             «Хочу поделиться своими впечатлениями по использованию дивана «Бродвей», 
                             заказывала в конце 2016 года. Держится великолепно. Спасибо, большое сотрудникам этого чудесного магазина.»
                         </p>
                     </div> 
                     
-                    <div class="slider__content"> <!-- карточка 4 слайдера -->
-                        <img class="user-pic" src="img/reviews/user_elena.png" alt="user_elena" >
-                        <span class="user-name">Елена Новикова4</span>
-                        <span class="user-psition">студентка</span>
+                <div class="slider__content"> <!-- карточка 4 слайдера -->
+                    <img class="user-pic" src="img/reviews/user_elena.png" alt="user_elena" >
+                    <span class="user-name">Елена Новикова4</span>
+                    <span class="user-psition">студентка</span>
                         <p class="user-review">
                             «Хочу поделиться своими впечатлениями по использованию дивана «Бродвей», 
                             заказывала в конце 2016 года. Держится великолепно. Спасибо, большое сотрудникам этого чудесного магазина.»
                         </p>
-                    </div>          
-                </div>    
-            </div>
-                <!-- кнопки и слайдер -->
-                <button class="slider__prev reviews__button">
-                    <img class="reviews__button-img" src="img/reviews/button-prev.svg" alt="">
-                </button>
-                <button class="slider__next reviews__button">
-                    <img class="reviews__button-img" src="img/reviews/button-next.svg" alt="">
-                </button>
-            </div>
-            
-        </div>
+                </div>           
+            </div>            
+         </div>  <!--container -->
     </section> <!-- "reviews -->
 
     <section class="leftowers">
@@ -163,9 +171,9 @@
             <div class="leftowers__top">
                 <div class="leftowers__top-header">последний шанс</div>
                 <nav class="leftowers__top-nav">
-                    <a class="nav-element" href="#">Стулья</a>
-                    <a class="nav-element" href="#">Диваны</a>
-                    <a class="nav-element" href="#">Кресла</a>
+                    <a class="nav-element" href="##">Стулья</a>
+                    <a class="nav-element" href="##">Диваны</a>
+                    <a class="nav-element" href="##">Кресла</a>
                 </nav>
             </div>
 
@@ -259,6 +267,11 @@
         </div>
     </footer> <!-- footer -->
 
+    
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
