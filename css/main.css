@@ -44,6 +44,7 @@ ul {
 
 .header__top {
   position: absolute;
+  z-index: 1 !important;
   top: 90px;
   display: flex;
   flex-direction: row;

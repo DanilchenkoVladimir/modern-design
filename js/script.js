@@ -1,8 +1,8 @@
 
-$('.wrap__slider').slick({
+$('.main__slider').slick({
     slidesToShow: 1,
     dots: true,
-    arrows: true
+    arrows: false
 });    
 
 $('.reviews__slider').slick({

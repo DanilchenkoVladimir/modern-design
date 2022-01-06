@@ -1,17 +1,20 @@
 .header 
     /* padding: 90px 0  156px; */
-    /* min-height: 100vh; */
+    min-height: 100vh
     /* min-width: 1440px; */
     // background-color: #F9FDFF
-    position: relative
-
+    // position: relative
+    // z-index: 100
+    // background: transparent
+    
 .header__top 
     position: absolute
+    z-index: 1 !important
     top: 90px 
     display: flex
     flex-direction: row
     justify-content: space-between
-    min-width: 1170px
+    // min-width: 1170px
     
   
 
@@ -19,7 +22,7 @@
     display: flex
     flex-direction: row
     align-items: center
-
+    // z-index: 4
 
 .header__top-logo 
     margin-right: 139px
@@ -38,7 +41,7 @@
     width: 380px
     justify-content: space-between
     align-items: center
-
+    z-index: 4
 
 .nav-item 
     font-family: "OpenSans", sans-serif
@@ -70,11 +73,14 @@
 
 /* header main start*/
 
-.header__main-slider 
-    display: flex
-    justify-content: space-between
-    z-index: -2
-    
+// .header__main-slider 
+//     display: flex
+//     justify-content: space-between
+//     z-index: -1
+.header__main
+    position: absolute
+    z-index: -100
+
 
 .main-left 
     padding-top: 235px
@@ -123,11 +129,3 @@
     color: #FFFFFF
     text-transform: uppercase
     letter-spacing: 13%
-
-
-//slider.main__product-slider
-    
-.slick-slider
-    display: flex
-    align-items: center
-
