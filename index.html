@@ -16,19 +16,19 @@
         <div class="container">
             <div class="header__top">
                 <div class="header__item-wrap">
-                <div class="header__top-logo">
-                    <a href="#">
-                        <img class="top__logo-img" src="img/header-top/header-logo.svg" alt="logo" >
-                    </a>
-                </div>
+                    <div class="header__top-logo">
+                        <a href="#">
+                            <img class="top__logo-img" src="img/header-top/header-logo.svg" alt="logo" >
+                        </a>
+                    </div>
 
-                <nav class="header__top-nav">
-                    <ul class="main__nav-list">
-                        <li class="nav-item"><a href="#">мебель</a></li>
-                        <li class="nav-item"><a href="#">освещение</a></li>
-                        <li class="nav-item"><a href="#">текстиль</a></li>
-                    </ul>
-                </nav>
+                    <nav class="header__top-nav">
+                        <ul class="main__nav-list">
+                            <li class="nav-item"><a class="nav-a" href="#">мебель</a></li>
+                            <li class="nav-item"><a class="nav-a" href="#">освещение</a></li>
+                            <li class="nav-item"><a class="nav-a" href="#">текстиль</a></li>
+                        </ul>
+                    </nav>
                 </div>
 
                 <div class="header__top-user">
@@ -59,7 +59,23 @@
                             <img class="header__main-img" src="img/header-main/main-chair.png" alt=""> 
                         </div>                    
                     </div>
+                    
+                    <div class="header__slider-content">
+                        <div class="main-left">
+                            <h1 class="header__main-header">дизайнерская мебель</h1>
+                            <p class="header__main-descr">Кресло “Антиква”</p>
+                                <div class="header__main-price">
+                                    <span class="main__price-before">$380</span>
+                                    <span class="main__price-after">$240</span>
+                                </div>
+                                <button class="header__main-button">купить</button>
+                        </div>
 
+                        <div class="main-right">
+                            <img class="header__main-img" src="img/header-main/img1.jpg" alt=""> 
+                        </div>                    
+                    </div>  
+                    
                     <div class="header__slider-content">
                         <div class="main-left">
                             <h1 class="header__main-header">дизайнерская мебель</h1>
@@ -90,26 +106,9 @@
                         <div class="main-right">
                             <img class="header__main-img" src="img/header-main/img1.jpg" alt=""> 
                         </div>                    
-                    </div>
-
-                    <div class="header__slider-content">
-                        <div class="main-left">
-                            <h1 class="header__main-header">дизайнерская мебель</h1>
-                            <p class="header__main-descr">Кресло “Антиква”</p>
-                                <div class="header__main-price">
-                                    <span class="main__price-before">$380</span>
-                                    <span class="main__price-after">$240</span>
-                                </div>
-                                <button class="header__main-button">купить</button>
-                        </div>
-
-                        <div class="main-right">
-                            <img class="header__main-img" src="img/header-main/img1.jpg" alt=""> 
-                        </div>                    
-                    </div>
-
-
-                </div>                
+                    </div> 
+                    
+                </div>    
             </div>  
         </div>
     </header> <!-- header -->
@@ -118,34 +117,44 @@
         <div class="container">
             <div class="wrapper">
                 <div class="products__left">
-                    <div class="product__card product-header">
+                    <div class="product__header">
+                        <div class="product__card-wrap">
                         <h2 class="product__card-header">новинки</h2>
+                        </div>
                     </div>
 
-                    <div class="product__card product" >
-                        <img class="product__card-img" src="img/new_goods/2.jpg" alt="" >
-                        <p class="product__card-descr">Стул «Смеркается»</p>
-                        <span class="product__card-price">$280</span>
+                    <div class="product__card product">
+                        <a class="product__link" href="##">
+                            <img class="product__card-img" src="img/new_goods/2.jpg" alt="Стул «Смеркается»" >
+                            <p class="product__card-descr">Стул «Смеркается»</p>
+                            <span class="product__card-price">$280</span>
+                        </a>
                     </div>
 
-                    <div class="product__card product" >
-                        <img class="product__card-img"  src="img/new_goods/1-1.jpg" alt="" >
-                        <p class="product__card-descr">Стул «Смеркается»</p>
-                        <span class="product__card-price">$250</span>  
+                    <div class="product__card product">
+                        <a class="product__link" href="##">
+                            <img class="product__card-img"  src="img/new_goods/1-1.jpg" alt="Люстра «Облако»" >
+                            <p class="product__card-descr">Люстра «Облако»</p>
+                            <span class="product__card-price">$250</span>
+                        </a>  
                     </div>
 
                     <div class="product__card product-table">
-                        <img class="product__card-img" src="img/new_goods/3.png" alt="" >
-                        <p class="product__card-descr">Стул «Смеркается»</p>
-                        <span class="product__card-price">$320</span>  
+                        <a class="product__link" href="##">
+                            <img class="product__card-img" src="img/new_goods/3.png" alt="Стол «Крем брюле»" >
+                            <p class="product__card-descr">Стол «Крем брюле»</p>
+                            <span class="product__card-price">$320</span> 
+                        </a> 
                     </div>
                 </div>
                 
                 <div class="products__right">
                     <div class="right__card">
-                        <img class="right__card-img" src="img/new_goods/4.jpg" alt="">
+                        <a class="product__link" href="##">
+                        <img class="right__card-img" src="img/new_goods/4.jpg" alt="Стул офисный «Белый шоколад»">
                         <p class="right__card-descr">Стул офисный «Белый шоколад»</p>
                         <span class="right__card-price">$120</span>
+                        </a>
                     </div>                             
                 </div>
             </div> 
@@ -157,7 +166,7 @@
             <div class="reviews__slider">       
                 <div class="slider__content"> <!-- карточка 1 слайдера -->
                     <img class="user-pic" src="img/reviews/user_elena.png" alt="user_elena" >
-                    <span class="user-name">Елена Новикова1</span>
+                    <span class="user-name">Елена Новикова</span>
                     <span class="user-psition">студентка</span>
                         <p class="user-review">
                             «Хочу поделиться своими впечатлениями по использованию дивана «Бродвей», заказывала в конце 2016 года. Держится великолепно. Спасибо, большое сотрудникам этого чудесного магазина.»
@@ -165,32 +174,30 @@
                 </div>
 
                 <div class="slider__content"> <!-- карточка 2 слайдера -->
-                    <img class="user-pic" src="img/reviews/user_elena.png" alt="user_elena" >
-                    <span class="user-name">Елена Новикова2</span>
-                    <span class="user-psition">студентка</span>
+                    <img class="user-pic" src="img/reviews/user_ivan.png" alt="user_ivan" >
+                    <span class="user-name">Иван и Елена Петровы</span>
+                    <span class="user-psition">художники</span>
                         <p class="user-review">
-                            «Хочу поделиться своими впечатлениями по использованию дивана «Бродвей», 
-                            заказывала в конце 2016 года. Держится великолепно. Спасибо, большое сотрудникам этого чудесного магазина.»
+                            "Самые адекватные цены на всякую мелочевку, ну товары отличные. Доставка, оплата, качество обслуживания и качество обратной связи, все на высоте. Очень довольны !!"
                         </p>
                     </div>
 
                 <div class="slider__content"> <!-- карточка 3 слайдера -->
-                    <img class="user-pic" src="img/reviews/user_elena.png" alt="user_elena" >
-                    <span class="user-name">Елена Новикова3</span>
-                    <span class="user-psition">студентка</span>
+                    <img class="user-pic" src="img/reviews/user_maria.png" alt="user_maria" >
+                    <span class="user-name">Мария Иванова</span>
+                    <span class="user-psition">домохозяйка</span>
                         <p class="user-review">
-                            «Хочу поделиться своими впечатлениями по использованию дивана «Бродвей», 
-                            заказывала в конце 2016 года. Держится великолепно. Спасибо, большое сотрудникам этого чудесного магазина.»
+                            «Брали кроватку для малыша, качество сборки, материала и удобство использования просто шикарное. В комплекте отличный высокий матрас наполненный экологичной бамбуковой стружкой с чехлом из неалергенного хлопка. Придем ли еще за покупками?? Да обязательно!!, отличный магазин.»
                         </p>
                     </div> 
                     
                 <div class="slider__content"> <!-- карточка 4 слайдера -->
-                    <img class="user-pic" src="img/reviews/user_elena.png" alt="user_elena" >
-                    <span class="user-name">Елена Новикова4</span>
-                    <span class="user-psition">студентка</span>
+                    <img class="user-pic" src="img/reviews/user_petr.png" alt="user_petr" >
+                    <span class="user-name">Петр Васильев</span>
+                    <span class="user-psition">личный - водитель</span>
                         <p class="user-review">
-                            «Хочу поделиться своими впечатлениями по использованию дивана «Бродвей», 
-                            заказывала в конце 2016 года. Держится великолепно. Спасибо, большое сотрудникам этого чудесного магазина.»
+                            «Очень хороший магазин,большой выбор и разумные цены. Внимательные и вежливые
+                            работники. Приятно удивлен и скоростью доставки. Определенно всем рекомендую именно этот салон.»
                         </p>
                 </div>           
             </div>            
@@ -300,9 +307,9 @@
 
     
 
-    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="js/jquery-migrate-3.3.2.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-migrate-3.3.2.min.js"></script>
+    <script src="slick/slick.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

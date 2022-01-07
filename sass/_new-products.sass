@@ -14,6 +14,27 @@
     flex-basis: 50%
     gap: 37px 30px
 
+
+
+.product__header
+    display: flex
+    flex-direction: column
+    justify-content: center
+ 
+.product__card-wrap
+    position: relative
+    width: 100%
+  
+.product__card-wrap::before
+    position: absolute
+    content: ""
+    bottom: -15px
+    left: 0px
+    height: 2px
+    width: 90px
+    border-bottom: 4px solid #303032
+
+ 
 .product__card
     display: flex
     flex-direction: column
@@ -41,20 +62,19 @@
         font-weight: 700
         font-size: 28px
         letter-spacing: 5%
-        // border-bottom: 7px solid #303032
         text-transform: uppercase
+        min-width: 270px
 
-    
-    
-    .product-header
-        text-align: flex-start  // попытка сдвинуть текст влево
+.product__link
+    display: flex
+    flex-direction: column
+    align-items: center
 
-    .product-header:before
-        content: ""
-        bottom: -15px
-        left: 0px
-        width: 90px
-        border-bottom: 4px solid #303032
+.products__right:hover, .product__card:hover
+    opacity: 0.5
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5)
+    
+  
 
 .products__right
     display: flex
