@@ -14,6 +14,48 @@
     .container {
         max-width: 960px;
     }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        max-width: 300px;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+   .header__top{
+        max-width: 960px;
+        width: 100%; 
+   }
+
+   .main__slider {
+       max-width: 919px;
+   }
+
+   .header__main-img {
+    max-width: 510px;
+}
 
 
     /* new products start */
@@ -44,54 +86,206 @@
         justify-content: center;
         gap: 50px 53px;
     }
-    
-    /* leftowers end*/
 
-
-
-
-}
-
-@media (max-width: 768px) {
-    .container {
-        max-width: 720px;
-    }
-}
-
-@media (max-width: 425px) {
-    .container {
-        max-width: 400px;
-    }
-}
-
-@media (max-width: 375px) {
-    .container {
-        max-width: 350px;
-    }
-}
-
-@media (max-width: 320px) {
-    .container {
-        max-width: 300px;
-    }
-}
-
-
-@media screen and (max-width: 1024px) {
-   .header__top{
-        max-width: 960px;
-        width: 100%; 
-   }
+    /* leftowers end  */
 }
 
 
 @media screen and (max-width: 768px) {
+
+    .header__top{
+        max-width: 720px;
+        width: 100%;
+        top: 50px; 
+   }
+
+   .main__slider {
+        max-width: 679px;
+    }
+
+   .header__slider-content {
+        align-items: center;
+   }
+
+   .main-left {
+       /* padding-top: 35px; */
+   }
+
+   .header__main-header {
+        
+        font-size: 41px;
+        max-width: 344px;
+   }
+
+   .header__main-img {
+       max-width: 376px;
+   }
+
+   /* new products start */
+
+   .products__left {
+       flex-basis: 87%;
+       gap: 37px 34px;
+   }
+
+   /* new products end */
+
    
 }
 
 @media screen and (max-width: 425px) {
 
+    .header::before  {
+        height: 64%;
+    }
+
+    .header__top{
+        padding: 22px 0 22px;
+        max-width: 425x;
+        width: 100%;
+        top: 50px;
+        background-color: #ffff; 
+        top: 0; 
+     
+    }
+
+   .header__top-nav {
+       display: none;
+    }
+
+   .header__burger {
+       display: block;
+       margin-right: 25px;
+
+    }
+
+   .main__slider {
+        max-width: 400px;
+    }
+
+    .header__slider-content {
+    display: flex;
+    flex-direction: column-reverse;
+    }
+
+
+    .main-left {
+        width: 100%;
+        padding-left: 1px
+        
+    }
+
+    /* .header__main-header {
+        font-size: 27px;
+    } */
+
+    .main-right {
+        width: 100%;
+        padding: 0 0 0 60px;
+    }
+
+    .header__main-button {
+        width: 100%;
+    }
+
+    /* new rpoduct start */
+
+    .products__left {
+        flex-basis: 100%;
+    }
+
+    .product__header {
+        width: 100%;
+        margin-bottom: 53px;
+    }
+        
+    .product {
+        width: 80%;
+    }
+
+    .product-table {
+        width: 80%;
+    }
+
+    .product__card-header {
+        width: 100%;
+        /* min-width: 325px; */
+    }
+
+    .products__right {
+        min-width: 320px
+    }
     
+    .right__card-img {
+        margin-bottom: 0;
+        width: 100%;
+    }    
+
+    /* new rpoduct end */
+
+    /* reviews start*/
+
+    .reviews {
+        display: none;
+    }
+    /* reviews end*/
+
+    /* leftowers start*/
+
+    .leftowers {
+        padding: 80px 0 ;
+        background-image: none;
+    }
+        
+    .leftowers__bottom {
+        display: none;
+    }
+
+    .leftowers__top-nav {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .nav-element {
+        margin-right: 0;
+    }
+
+    /* leftowers end*/
+
+     /* footer start*/
+
+    .footer {
+        padding: 30px 0 10px 0
+    }
+
+    .footer__logo {
+        margin-bottom: 31px;
+    }
+     
+    .footer_wrap  {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .footer__main {
+        display: flex;
+        margin-top: 0;
+        flex-direction: column;
+    }
+
+    .footer__main-tel {
+        margin-bottom: 22px;
+    }
+
+    .footer__main-email {
+        margin-bottom: 40px;
+    }
+
+
+}    
+
+
 
 @media screen and (max-width: 320px) {
 

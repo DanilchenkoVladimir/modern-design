@@ -126,9 +126,21 @@ ul {
   transform: scale(1.1);
 }
 
+.header__burger {
+  display: none;
+}
+
 /* header main start*/
+.main__slider {
+  max-width: 1129px;
+}
+
+.header__slider-content {
+  align-items: center;
+}
+
 .main-left {
-  padding-top: 235px;
+  padding-left: 2px;
 }
 
 .header__main-header {

@@ -137,8 +137,8 @@
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 50%;
-  right: 0;
+  top: 38%;
+  right: -104px;
   height: 205px;
   width: 41px;
   flex-shrink: 1;
@@ -221,7 +221,7 @@
 }
 
 .reviews__slider .slick-next {
-    right: -51px;
+    right: -50px;
 }
 
 .reviews__slider .slick-prev::before {
@@ -291,3 +291,13 @@
 /* reviews__slider bottom dots end */
 
 
+@media screen and (max-width: 768px) {
+
+  .reviews__slider .slick-next {
+      right: -36px;
+  }
+
+  .reviews__slider .slick-prev {
+      left: -36px;
+  }  
+}
