@@ -54,9 +54,8 @@
    }
 
    .header__main-img {
-    max-width: 510px;
-}
-
+        max-width: 510px;
+    }
 
     /* new products start */
 
@@ -88,6 +87,7 @@
     }
 
     /* leftowers end  */
+
 }
 
 
@@ -97,7 +97,7 @@
         max-width: 720px;
         width: 100%;
         top: 50px; 
-   }
+    }
 
    .main__slider {
         max-width: 679px;
@@ -105,17 +105,17 @@
 
    .header__slider-content {
         align-items: center;
-   }
+    }
 
    .main-left {
        /* padding-top: 35px; */
-   }
+    }
 
    .header__main-header {
         
         font-size: 41px;
         max-width: 344px;
-   }
+    }
 
    .header__main-img {
        max-width: 376px;
@@ -128,26 +128,35 @@
        gap: 37px 34px;
    }
 
-   /* new products end */
-
-   
+   /* new products end */  
 }
 
 @media screen and (max-width: 425px) {
 
-    .header::before  {
-        height: 64%;
+    .header {
+        padding: 0 0 80px;
     }
 
-    .header__top{
-        padding: 22px 0 22px;
-        max-width: 425x;
-        width: 100%;
-        top: 50px;
-        background-color: #ffff; 
-        top: 0; 
-     
+    .header::before  {
+        height: 56%;
     }
+
+
+    .header__top {
+        padding: 22px 0 22px;
+        max-width: 100%;
+        top: 50px;
+        background-color: #ffff;
+        top: 0;
+        left: 0;
+        align-items: center;
+    }
+
+    .header__top-logo {
+        margin-right: 0;
+        margin-left: 14px;
+    }
+    
 
    .header__top-nav {
        display: none;
@@ -155,29 +164,38 @@
 
    .header__burger {
        display: block;
-       margin-right: 25px;
+       /* margin-right: 25px; */
 
     }
+    .header__item-wrap {
+        flex-basis: 34%;
+    }
+    
+    .burger {
+        display: flex;
+        align-items: center;
+        margin-right: 13px
+    }
 
-   .main__slider {
+
+    .main__slider {
         max-width: 400px;
     }
 
     .header__slider-content {
-    display: flex;
-    flex-direction: column-reverse;
+        display: flex;
+        flex-direction: column-reverse;
     }
 
+    .header__main {
+        padding-bottom: 35px;
+    }
 
     .main-left {
         width: 100%;
-        padding-left: 1px
-        
+        padding-left: 1px;
+        padding-top: 10px;
     }
-
-    /* .header__main-header {
-        font-size: 27px;
-    } */
 
     .main-right {
         width: 100%;
@@ -189,6 +207,12 @@
     }
 
     /* new rpoduct start */
+
+    .new-products {
+        padding-top: 0; 
+    }
+    
+
 
     .products__left {
         flex-basis: 100%;
@@ -209,7 +233,6 @@
 
     .product__card-header {
         width: 100%;
-        /* min-width: 325px; */
     }
 
     .products__right {
@@ -223,12 +246,15 @@
 
     /* new rpoduct end */
 
+
     /* reviews start*/
 
     .reviews {
         display: none;
     }
+
     /* reviews end*/
+
 
     /* leftowers start*/
 
@@ -238,7 +264,7 @@
     }
         
     .leftowers__bottom {
-        display: none;
+        /* display: none; */
     }
 
     .leftowers__top-nav {
@@ -268,6 +294,12 @@
         flex-direction: column-reverse;
     }
 
+    .footer__nav-list {
+        display: flex;
+        flex-direction: row;
+        min-width: 400px;
+    }
+
     .footer__main {
         display: flex;
         margin-top: 0;
@@ -286,8 +318,64 @@
 }    
 
 
+@media screen and (max-width: 375px) {
+    
+    .main__slider {
+        max-width: 350px;
+    }
+
+    .main-right {
+        padding: 0 0 0 17px; 
+    }
+
+    .products__right {
+        min-width: 281px;
+    }
+
+    .right__card-descr {
+        font-size: 17px;
+    }
+
+    .leftowers__top-nav {
+        justify-content: space-between
+    }
+
+}
+
 
 @media screen and (max-width: 320px) {
+    
+    .header__top {
+        
+    }
 
-   
+    .main__slider {
+        max-width: 300px;
+    }
+
+    .main-right {
+        padding: 0; 
+    }
+
+    .header__main-img {
+        max-width: 116%;
+    }
+
+    .header__main-header {
+        font-size: 27px;
+    }
+
+    .products__right {
+        min-width: 243px;
+    }
+
+    .right__card-descr {
+        font-size: 23px;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }  
 }
+
+
+

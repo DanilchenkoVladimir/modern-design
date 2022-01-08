@@ -7,4 +7,14 @@ $('.main__slider').slick({
 $('.reviews__slider').slick({
     dots: true,
     arrows: true
-});        
+});  
+
+
+let dotNums = document.querySelectorAll(".slick-dots button");
+
+    function removeText(item) {
+        item.innerHTML = "";
+        
+    }
+
+dotNums.forEach(removeText);
