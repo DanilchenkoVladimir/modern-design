@@ -13,8 +13,7 @@ $('.reviews__slider').slick({
 let dotNums = document.querySelectorAll(".slick-dots button");
 
     function removeText(item) {
-        item.innerHTML = "";
-        
+        item.innerHTML = "";    
     }
 
 dotNums.forEach(removeText);

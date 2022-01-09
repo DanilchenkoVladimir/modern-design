@@ -136,21 +136,9 @@
   position: absolute;
   top: 38%;
   right: -39px;
-  /* height: 205px;
-  width: 41px;
-  flex-shrink: 1;
-  margin: 0;
-  padding: 0;
-  margin-right: 64px;
-  margin-bottom: 60px;
-  list-style: none;
-  align-self: center; */
 }
 
 .main__slider .slick-dots li button {
-  /* width: 23px;
-  height: 29px; */
-  /* text-align: right; */
   font-family: "PlayfairDisplay", sans-serif;
   border: none;
   background: transparent;
@@ -210,9 +198,6 @@
 
 
 /* блок кнопок */
-
-
-
 
 
 /* reviews__slider arrows start */
