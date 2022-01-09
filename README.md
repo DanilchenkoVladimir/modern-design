@@ -32,8 +32,7 @@ ___
 * Установка архивом: 
 
     - Переходим в верхнюю часть страницы GitHub, находим кнопку зеленого цвета <button style="border-radius: 6px; background: green; border: 1px solid green; font-size: 14px; font-weight: 500; color: #ffffff">Code</button>.
-    ![howto](https://github.com/DanilchenkoVladimir/modern-design/blob/ecadd7a1bb4f12eaf0b0cf9f87e9620ee5cb31c9/readme/readme.jpg)
-
+    ![howto](https://github.com/DanilchenkoVladimir/modern-design/blob/a728d1e11f2de34056b639da559a6c306d9934cd/readme/howTo.gif)
     - В открывшемся меню выбираем пункт "Download ZIP", скачиваем архив с контентом сайта.
     - Распаковываем в удобном для вас месте, открыв папку "modern-design-main", в корне папки кликаем по файлу "Index.html".
     - Приложение откроется в установленном в системе по умолчанию браузере и готово для просмотра. 
